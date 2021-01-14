@@ -1,0 +1,25 @@
+.learnings {
+  display: inline-flex;
+  width: 100%;
+  height: fit-content;
+  flex-direction: row; 
+  justify-content: space-around;
+  background:rgba(127, 127, 133, 0.877);
+  padding: 20px;
+}
+
+.learnings-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 80%;
+}
+
+.logos {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 10%;
+  padding-right: 10%;
+}
