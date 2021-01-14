@@ -1,0 +1,37 @@
+/* .short, .short_container, .short_title, .quality_cards, .quality_card {
+  border:burlywood;
+  border-style: solid;
+  border-width: thin;
+} */
+
+.short {
+  display: inline-flex;
+  flex-direction: row; 
+  justify-content: center;
+  height: 320;
+  width: 100%;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.short_container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.short_title {
+  height: 20%;
+}
+
+.quality_cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 80%;
+}
+
+.quality_card { 
+  width: 23%;
+  padding: 20px;
+}

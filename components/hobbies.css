@@ -1,0 +1,115 @@
+
+.hobby_card img {
+  
+  /* border:burlywood;
+  border-style: solid;
+  border-width: thin; */
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+  background-size: cover;
+  background-position: cover;
+}
+
+.hobbies  {
+  display: inline-flex;
+  flex-direction: row; 
+  justify-content: center;
+  height: 1000px;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.hobbies_container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.hobbies_title {
+  height: 5%;
+  /* margin-bottom: 30px; */
+}
+
+.hobby_cards {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  height: 90%;
+  width: 100%;
+  
+}
+
+.row1 {
+  display: flex;
+  flex-direction: row;
+  height: 50%;
+  justify-content: space-between;
+  /* margin-left: 50px;
+  margin-right: 50px; */
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+.row2 {
+  display: flex;
+  flex-direction: row;
+  height: 50%;
+  justify-content: space-between;
+  /* margin-left: 50px;
+  margin-right: 50px; */
+  margin: 40px;
+}
+
+#card1 {
+  background-color: #587291;
+  margin-right: 40px;
+}
+
+#card2 {
+  background-color: #E1BBB7;
+margin-left: 40px;
+}
+
+#card3 {
+  background-color: #E2DCDE;
+  color: black;
+  margin-right: 40px;
+  
+}
+
+#card4 {
+  background-color: #73A580;
+  margin-left: 40px;
+}
+
+.hobby_text {
+  padding: 20px;
+  height: fit-content;
+}
+.hobby_card {
+  overflow: hidden;
+  position: relative;
+  height:auto;
+  height: 100%;
+  width: 50%;
+  color: white;
+  border-radius: 3px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  /* padding:20px; */
+  /* margin: 20px; */
+}
+
+.hobby_text, .hobby_image{transition: opacity 0.5s ease-in-out;}
+.hobby_text {position:absolute; top:0; left:0; opacity:0;}
+.hobby_card:hover .hobby_image { opacity: 0;}
+.hobby_card:hover .hobby_text { opacity: 1;}
+
+
+/* .hobbies, .hobbies_title, .hobbies_container, .hobby_cards, .hobby_card, .row1, .row2 {
+  border:burlywood;
+  border-style: solid;
+  border-width: thin;
+} */

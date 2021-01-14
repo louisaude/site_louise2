@@ -1,0 +1,27 @@
+/* 
+.test, .projects, .projects_container, .videos, .row {
+  border:burlywood;
+  border-style: solid;
+  border-width: thin;
+} */
+
+/* .test {
+  display: flex;
+  flex-direction: row;  
+  align-content: center;
+} */
+
+.projects {
+  display: flex;
+  flex-direction: row;
+}
+.videos { 
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LhWghYaVf_M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="test"></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SJAXLVsVvGU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+

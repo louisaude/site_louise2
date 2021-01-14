@@ -1,0 +1,48 @@
+@import "bio.css";
+@import "experience.css";
+@import "hobbies.css";
+@import "short.css";
+@import "navbar.css";
+@import "footer.css";
+@import "projects.css";
+
+
+
+
+body { 
+  background-image: url("../images/IMG-1495-blurred.png");
+  background-color: grey;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  }
+
+h1, h2, h3 {font-family: 'Roboto', sans-serif;
+font-weight: 200;
+}
+
+h1 {
+  color: white;
+}
+
+a, a:hover {
+   color: white;
+   text-decoration: none;
+}
+
+html {
+  font-size: 16px;
+}
+@media screen and (min-width: 320px) {
+  html {
+    font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+  }
+}
+@media screen and (min-width: 1000px) {
+  html {
+    font-size: 22px;
+  }
+} 
