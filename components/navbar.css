@@ -19,7 +19,7 @@
   display: inline-flex;
   flex-direction: row;
   justify-content: space-around;
-  width: 700px;
+  width: 800px;
 }
 
 .button {

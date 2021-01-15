@@ -1,27 +1,11 @@
-/* 
-.test, .projects, .projects_container, .videos, .row {
-  border:burlywood;
-  border-style: solid;
-  border-width: thin;
-} */
-
-/* .test {
-  display: flex;
-  flex-direction: row;  
-  align-content: center;
-} */
 
 .projects {
   margin-top: 20px;
   margin-bottom: 20px;
   text-align: center;
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  align-content: center;
-  border:burlywood;
-  border-style: solid;
-  border-width: thin;
+
 } 
 
 
@@ -29,17 +13,13 @@
   display: inline-flex;
   width: 80%;
   margin: 0 auto;
-  border:burlywood;
-  border-style: solid;
-  border-width: thin;
 } 
 
 }
 .videos { 
   display: flex;
-  /* justify-content: center; */
-  width: 50%;
-}
+  max-width: 50%;
+  }
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/LhWghYaVf_M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="test"></iframe>
 
