@@ -9,8 +9,18 @@
 @import "lessons.css";
 
 
-
-
+.afc7f4 {
+  color: #afc7f4;
+}
+.eightytwo {
+  font-size: 82px;
+}
+.fiftytwo {
+  font-size: 52px;
+}
+.weight500 {
+  font-weight: 500;
+}
 body { 
   background-image: url("../images/IMG-1495-blurred.png");
   background-color: grey;
