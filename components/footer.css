@@ -13,11 +13,17 @@
   border-style: solid;
   border-width: thin;
 } */
-.cv {
-  width:270px;
+.resume {
+  width:fit-content;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  width: fit-content;
+
+}
+
+.resume a, .resume p {
+  padding: 10px;
 }
 
 .footer a, .footer a:hover{

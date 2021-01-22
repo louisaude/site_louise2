@@ -8,7 +8,7 @@
   display: inline-flex;
   flex-direction: row; 
   justify-content: center;
-  height: 320;
+  height: fit-content;
   width: 100%;
   color: white;
   margin-bottom: 40px;
