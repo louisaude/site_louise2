@@ -46,12 +46,18 @@
 .passion {
   position: relative;
   padding: 0;
+  margin: 20px;
 }
 .passion:hover .overlay {
   opacity: 1;
 }
 
 .passion_text {
+  border: blue;
+  border-style: solid;
+  border-width: thin;
+  padding: 20px;
+  width: fit-content;
   color: white;
   font-size: 20px;
   position: absolute;
