@@ -6,22 +6,23 @@
 
 .passions_container {
   display: flex;
+  justify-content: center;
   width: 80%;
   margin: 0 auto;
   flex-direction: column;
-  border: cadetblue;
+  /* border: cadetblue;
   border-style: solid;
-  border-width: thin;
+  border-width: thin; */
 }
 
 .passion_row {
   display: flex;
-  justify-content: space-around;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border: yellow;
+  justify-content: center;
+  /* margin-top: 20px; */
+  /* margin-bottom: 20px; */
+  /* border: yellow;
   border-style: solid;
-  border-width: thin;
+  border-width: thin; */
 }
 
 .passion_image {
@@ -51,15 +52,28 @@
 .passion:hover .overlay {
   opacity: 1;
 }
+.hobby1 {
+  background-color:#4682b4;
+}
+.hobby2 {
+  background-color: #ebbfa1;
+}
 
+.hobby3 {
+  background-color: #a5907f;
+}
+
+.hobby4 {
+  background-color: #7a9c5f;
+}
 .passion_text {
-  border: blue;
+  /* border: blue;
   border-style: solid;
-  border-width: thin;
+  border-width: thin; */
   padding: 20px;
   width: fit-content;
   color: white;
-  font-size: 20px;
+  /* font-size: 20px; */
   position: absolute;
   top: 50%;
   left: 50%;

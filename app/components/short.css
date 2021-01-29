@@ -18,7 +18,23 @@
   display: flex;
   flex-direction: column;
   width: 80%;
+  height: fit-content;
 }
+
+.short_block {
+  display: flex;
+  flex-direction: row;
+}
+
+.short_row{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  /* border-color: blue;
+  border-style: solid; */
+}
+
+
 
 .short_title {
   height: 20%;
@@ -26,12 +42,15 @@
 
 .quality_cards {
   display: flex;
-  flex-direction: row;
+  flex-direction: colums;
   justify-content: space-around;
   height: 80%;
 }
 
 .quality_card { 
-  width: 23%;
+  width: 50%;
   padding: 20px;
+  margin: 10px;
+  font-size: 20px;
+  min-height: 250px;
 }
