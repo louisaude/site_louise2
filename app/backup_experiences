@@ -5,7 +5,7 @@
           <div class="xp_card">
             <div class="dates"><p>December 2019 - February 2020</p></div>
             <div class="company">
-              <div class="logo"><img class ="logo" src="images/logos/jcg_logo.webp" alt="Avatar"></div>
+              <div class="logo"><img class ="logo" src="images/logos/jcg_logojpeg" alt="Avatar"></div>
               <div class="company_name"><h2> Consultant<br>Junior Consulting Grenoble</h2></div>
             </div>
             <div class="job_desc">Carrying out a marketing study to identify potential customers for a service (confidential). 
@@ -39,7 +39,7 @@
               <div class="xp_card">
                 <div class="dates"><p>Spring and Summer 2020</p></div>
                 <div class="company">
-                  <div class="logo"><img class ="logo" src="images/logos/pm.webp" alt="Avatar"></div>
+                  <div class="logo"><img class ="logo" src="images/logos/pmjpeg" alt="Avatar"></div>
                   <div class="company_name"><h2>Project Manager</h2></div>
                 </div>
                 <div class="job_desc">
@@ -54,7 +54,7 @@
               <div class="xp_card">
                 <div class="dates"><p>Since 2018</p></div>
                 <div class="company">
-                  <div class="logo"><img class ="logo" src="images/logos/iae.webp" alt="Avatar"></div>
+                  <div class="logo"><img class ="logo" src="images/logos/iaejpeg" alt="Avatar"></div>
                   <div class="company_name"> <h2>Students' association'<br>Communications director</h2></div>
                 </div>
                 <div class="job_desc">
@@ -71,7 +71,7 @@
               <div class="xp_card">
                 <div class="dates"><p>Since 2012</p></div>
                 <div class="company">
-                  <div class="logo"><img class ="logo" src="images/logos/vlm.webp" alt="Avatar"></div>
+                  <div class="logo"><img class ="logo" src="images/logos/vlmjpeg" alt="Avatar"></div>
                   <div class="company_name"><h2>Volunteers coordinator <br>NPO against cystic fibrosis</h2></div>
                 </div>
                 <div class="job_desc">
